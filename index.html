@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D Restaurant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="app">
+        <header id="header">
+            <div class="grid wide">
+                <div class="row justify">
+                    <div class="logo"><img src="./images/logo1.svg" alt=""></div>
+                    <div class="menu-bar">
+                        <span></span>
+                    </div>
+                    <div class="menu-items">
+                        <ul>
+                            <li class="menu-item"><a href="">Home</a></li>
+                            <li class="menu-item"><a href="">About us</a></li>
+                            <li class="menu-item"><a href="">Menu</a></li>
+                            <li class="menu-item"><a href="">Review</a></li>
+                            <li class="menu-item"><a href="">Team</a></li>
+                            <li class="menu-item"><a href="">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div id="banner">
+            <div class="grid">
+                <div class="banner-content">
+                    <h2 class="banner-content__title">Nhà hàng D Restaurant</h2>
+                    <p class="banner-content__desc">Đẳng cấp lên ngôi, vị ngọt đôi môi, niềm vui ngón chờ từng giây phút mộng mơ</p>
+                    <button class="banner-content__btn btn">MENU</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="content">
+            <div class="about section-padding">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-12">
+                            <div class="section-title">
+                                <h2 data-title="Our Story">About us</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col l-6">
+                            <div class="about-content">
+                                <h2>Chào mừng bạn đến với D Restaurant</h2>
+                                <p>Hân hạnh chào đón bạn bạn đã đến với Thai Market hôm nay và tham gia vào cuộc hành trình ẩm thực đầy lý thú của chúng tôi. <br><br>Tôi mau chóng đắm mình vào mê cung vị giác hằng ngày của vị chua - cay còn có mặn đắng - nồng ấm - ngọt bùi của tất cả các “gia vị cuộc đời” mang lại, được đúc kết trong hàng ngàn món ăn đường phố Bangkok - chợ đêm - trên mọi nẻo đường tôi dã đi qua, cho dù đó là ChiangMai - Phuket hay Pattaya …<br><br> Choáng ngợp với nền ẩm thực đa dạng, đầy tinh tuý của mảnh đất nụ cười ‘Land of Smile’ - Cuộc hành trình đầy gian nan và trắc trở để đưa tên tuổi Thai Market gần với người Việt hơn bao giờ hết.</p>
+                                <button class="btn">
+                                    XEM MENU
+                                </button>
+                            </div>
+                        </div>    
+                        <div class="col l-6">
+                            <div class="about-img">
+                                <span>Hơn 10 năm kinh nghiệm</span>
+                                <img src="./images/about.jpg" alt="">
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu section-padding">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-12">
+                            <div class="section-title">
+                                <h2 data-title="Book now">Menu</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="menu-title">
+                            <button class="menu-button js-menu-button active">Trưa</button>
+                            <button class="menu-button js-menu-button">Chiều tối</button>
+                            <button class="menu-button js-menu-button">Đồ uống</button>
+                            <button class="menu-button js-menu-button">Điểm tâm</button>
+                        </div>
+                    </div>
+                    <div class="menu-item__content js-menu-item__content active">
+                        <div class="col l-6">
+                            <div class="food-lists">
+                                <div class="food-items">
+                                    <img src="./images/menu1.jpg" alt="">
+                                    <p>Món Trưa</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>250.000 VND</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="food-lists">
+                                <div class="food-items">
+                                    <img src="./images/menu1.jpg" alt="">
+                                    <p>Món Trưa</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>250.000 VND</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="food-lists">
+                                <div class="food-items">
+                                    <img src="./images/menu1.jpg" alt="">
+                                    <p>Món Trưa</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>250.000 VND</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="food-lists">
+                                <div class="food-items">
+                                    <img src="./images/menu1.jpg" alt="">
+                                    <p>Món Trưa</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>250.000 VND</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="food-lists">
+                                <div class="food-items">
+                                    <img src="./images/menu1.jpg" alt="">
+                                    <p>Món Trưa</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>250.000 VND</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="food-lists">
+                                <div class="food-items">
+                                    <img src="./images/menu1.jpg" alt="">
+                                    <p>Món Trưa</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>250.000 VND</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="food-lists">
+                                <div class="food-items">
+                                    <img src="./images/menu1.jpg" alt="">
+                                    <p>Món Trưa</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>250.000 VND</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="food-lists">
+                                <div class="food-items">
+                                    <img src="./images/menu1.jpg" alt="">
+                                    <p>Món Trưa</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>250.000 VND</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-item__content js-menu-item__content">
+                        <div class="col l-6">
+                            <div class="food-lists">
+                                <div class="food-items">
+                                    <img src="./images/menu1.jpg" alt="">
+                                    <p>Món chiều</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>250.000 VND</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="food-lists">
+                                <div class="food-items">
+                                    <img src="./images/menu1.jpg" alt="">
+                                    <p>Món chiều</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>250.000 VND</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="food-lists">
+                                <div class="food-items">
+                                    <img src="./images/menu1.jpg" alt="">
+                                    <p>Món chiều</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>250.000 VND</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="food-lists">
+                                <div class="food-items">
+                                    <img src="./images/menu1.jpg" alt="">
+                                    <p>Món chiều</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>250.000 VND</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="food-lists">
+                                <div class="food-items">
+                                    <img src="./images/menu1.jpg" alt="">
+                                    <p>Món chiều</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>250.000 VND</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="food-lists">
+                                <div class="food-items">
+                                    <img src="./images/menu1.jpg" alt="">
+                                    <p>Món chiều</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>250.000 VND</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="food-lists">
+                                <div class="food-items">
+                                    <img src="./images/menu1.jpg" alt="">
+                                    <p>Món chiều</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>250.000 VND</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="food-lists">
+                                <div class="food-items">
+                                    <img src="./images/menu1.jpg" alt="">
+                                    <p>Món chiều</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>250.000 VND</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-item__content js-menu-item__content">
+                        <div class="col l-6">
+                            <div class="food-lists">
+                                <div class="food-items">
+                                    <img src="./images/menu1.jpg" alt="">
+                                    <p>Đồ uống</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>250.000 VND</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="food-lists">
+                                <div class="food-items">
+                                    <img src="./images/menu1.jpg" alt="">
+                                    <p>Đồ uống</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>250.000 VND</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="food-lists">
+                                <div class="food-items">
+                                    <img src="./images/menu1.jpg" alt="">
+                                    <p>Đồ uống</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>250.000 VND</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="food-lists">
+                                <div class="food-items">
+                                    <img src="./images/menu1.jpg" alt="">
+                                    <p>Đồ uống</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>250.000 VND</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="food-lists">
+                                <div class="food-items">
+                                    <img src="./images/menu1.jpg" alt="">
+                                    <p>Đồ uống</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>250.000 VND</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="food-lists">
+                                <div class="food-items">
+                                    <img src="./images/menu1.jpg" alt="">
+                                    <p>Đồ uống</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>250.000 VND</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="food-lists">
+                                <div class="food-items">
+                                    <img src="./images/menu1.jpg" alt="">
+                                    <p>Đồ uống</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>250.000 VND</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="food-lists">
+                                <div class="food-items">
+                                    <img src="./images/menu1.jpg" alt="">
+                                    <p>Đồ uống</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>250.000 VND</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-item__content js-menu-item__content">
+                        <div class="col l-6">
+                            <div class="food-lists">
+                                <div class="food-items">
+                                    <img src="./images/menu1.jpg" alt="">
+                                    <p>Điểm tâm</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>250.000 VND</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="food-lists">
+                                <div class="food-items">
+                                    <img src="./images/menu1.jpg" alt="">
+                                    <p>Điểm tâm</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>250.000 VND</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="food-lists">
+                                <div class="food-items">
+                                    <img src="./images/menu1.jpg" alt="">
+                                    <p>Điểm tâm</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>250.000 VND</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="food-lists">
+                                <div class="food-items">
+                                    <img src="./images/menu1.jpg" alt="">
+                                    <p>Điểm tâm</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>250.000 VND</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="food-lists">
+                                <div class="food-items">
+                                    <img src="./images/menu1.jpg" alt="">
+                                    <p>Điểm tâm</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>250.000 VND</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="food-lists">
+                                <div class="food-items">
+                                    <img src="./images/menu1.jpg" alt="">
+                                    <p>Điểm tâm</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>250.000 VND</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="food-lists">
+                                <div class="food-items">
+                                    <img src="./images/menu1.jpg" alt="">
+                                    <p>Điểm tâm</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>250.000 VND</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="food-lists">
+                                <div class="food-items">
+                                    <img src="./images/menu1.jpg" alt="">
+                                    <p>Điểm tâm</p>
+                                </div>
+                                <div class="food-price">
+                                    <p>250.000 VND</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review section-padding">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-12">
+                            <div class="section-title">
+                                <h2 data-title="Testimony">Some review</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col l-4">
+                            <div class="review-items">
+                                <div class="review-items__heading">
+                                    <div class="review-items__text">
+                                        <h4 class="review-items__name">Lê Công Quốc Duy</h4>
+                                        <p class="review-items__job">Chuyên gia ẩm thực</p>
+                                    </div>
+                                    <div class="review-items__img">
+                                        <img src="./images/Test1.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="review-items__body">
+                                    <p class="review-items__desc">
+                                        Tôi mau chóng đắm mình vào mê cung vị giác hằng ngày của vị chua - cay còn có mặn đắng - nồng ấm - ngọt bùi của tất cả các “gia vị cuộc đời” mang lại, được đúc kết trong hàng ngàn món ăn đường phố Bangkok - chợ đêm - trên mọi nẻo đường tôi dã đi qua, cho dù đó là ChiangMai - Phuket hay Pattaya …
+                                    </p>
+                                    <div class="review-items__ratings">
+                                        <i class="fa fa-star active"></i>
+                                        <i class="fa fa-star active"></i>
+                                        <i class="fa fa-star active"></i>
+                                        <i class="fa fa-star"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4">
+                            <div class="review-items">
+                                <div class="review-items__heading">
+                                    <div class="review-items__text">
+                                        <h4 class="review-items__name">Lê Công Quốc Duy</h4>
+                                        <p class="review-items__job">Chuyên gia ẩm thực</p>
+                                    </div>
+                                    <div class="review-items__img">
+                                        <img src="./images/Test2.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="review-items__body">
+                                    <p class="review-items__desc">
+                                        Tôi mau chóng đắm mình vào mê cung vị giác hằng ngày của vị chua - cay còn có mặn đắng - nồng ấm - ngọt bùi của tất cả các “gia vị cuộc đời” mang lại, được đúc kết trong hàng ngàn món ăn đường phố Bangkok - chợ đêm - trên mọi nẻo đường tôi dã đi qua, cho dù đó là ChiangMai - Phuket hay Pattaya …
+                                    </p>
+                                    <div class="review-items__ratings">
+                                        <i class="fa fa-star active"></i>
+                                        <i class="fa fa-star active"></i>
+                                        <i class="fa fa-star active"></i>
+                                        <i class="fa fa-star active"></i>
+                                        <i class="fa fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4">
+                            <div class="review-items">
+                                <div class="review-items__heading">
+                                    <div class="review-items__text">
+                                        <h4 class="review-items__name">Lê Công Quốc Duy</h4>
+                                        <p class="review-items__job">Chuyên gia ẩm thực</p>
+                                    </div>
+                                    <div class="review-items__img">
+                                        <img src="./images/Test3.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="review-items__body">
+                                    <p class="review-items__desc">
+                                        Tôi mau chóng đắm mình vào mê cung vị giác hằng ngày của vị chua - cay còn có mặn đắng - nồng ấm - ngọt bùi của tất cả các “gia vị cuộc đời” mang lại, được đúc kết trong hàng ngàn món ăn đường phố Bangkok - chợ đêm - trên mọi nẻo đường tôi dã đi qua, cho dù đó là ChiangMai - Phuket hay Pattaya …
+                                    </p>
+                                    <div class="review-items__ratings">
+                                        <i class="fa fa-star active"></i>
+                                        <i class="fa fa-star active"></i>
+                                        <i class="fa fa-star active"></i>
+                                        <i class="fa fa-star active"></i>
+                                        <i class="fa fa-star active"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team section-padding">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-12">
+                            <div class="section-title">
+                                <h2 data-title="Teams">Our chefs</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col l-4">
+                            <div class="team-items">
+                                <div class="team-img">
+                                    <img src="./images/team1.jpg" alt="">
+                                </div>
+                                <div class="team-infos">
+                                    <h2 class="team-name">Lê Công Quốc Duy</h2>
+                                    <p class="team-job">Bếp trưởng</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4">
+                            <div class="team-items">
+                                <div class="team-img">
+                                    <img src="./images/team2.jpg" alt="">
+                                </div>
+                                <div class="team-infos">
+                                    <h2 class="team-name">Lê Công Quốc Duy</h2>
+                                    <p class="team-job">Bếp trưởng</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4">
+                            <div class="team-items">
+                                <div class="team-img">
+                                    <img src="./images/team3.jpg" alt="">
+                                </div>
+                                <div class="team-infos">
+                                    <h2 class="team-name">Lê Công Quốc Duy</h2>
+                                    <p class="team-job">Bếp trưởng</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer id="footer">
+            <div class="footer-overplay"></div>
+            <div class="grid wide footer-container">
+                <div class="row footer-row">
+                    <div class="col l-4">
+                        <div class="footer-content">
+                            <h4 class="footer-title">
+                                Địa chỉ
+                            </h4>
+                            <p class="footer-desc">52 Yết Kiêu</p>
+                            <p class="footer-desc">Thuận Hòa, Huế</p>
+                        </div>
+                    </div>
+                    <div class="col l-4">
+                        <div class="footer-content">
+                            <h4 class="footer-title">
+                                Địa chỉ
+                            </h4>
+                            <p class="footer-desc">52 Yết Kiêu</p>
+                            <p class="footer-desc">Thuận Hòa, Huế</p>
+                        </div>
+                    </div>
+                    <div class="col l-4">
+                        <div class="footer-content">
+                            <h4 class="footer-title">
+                                Địa chỉ
+                            </h4>
+                            <p class="footer-desc">52 Yết Kiêu</p>
+                            <p class="footer-desc">Thuận Hòa, Huế</p>
+                            <div class="footer-socials">
+                                <i class="fab fa-facebook"></i>
+                                <i class="fab fa-instagram"></i>
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-youtube"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
